@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Suitmedia App</string>
+    <string name="name">Name</string>
+    <string name="palindrome">Palindrome</string>
+    <string name="check">Check</string>
+    <string name="next">Next</string>
+    <string name="home">Home</string>
+    <string name="users">Users</string>
+    <string name="welcome">Welcome</string>
+    <string name="choose_user">Choose a user</string>
+    <string name="selected_user_name">Selected User Name</string>
+    <string name="author_name">Novandi Ramadhan</string>
+    <string name="author_email">novandi@mail.com</string>
+    <string name="warning">Warning</string>
+    <string name="alert_name_empty">Name field is required!</string>
+    <string name="full_name">%1$s %2$s</string>
+    <string name="no_user_data">No User Data</string>
+    <string name="retry">Retry</string>
+    <string name="palindrome_check">Palindrome Check</string>
+    <string name="palindrome_result">%1$s is %2$s!</string>
+    <string name="alert_palindrome_empty">Palindrome field is required!</string>
+</resources>

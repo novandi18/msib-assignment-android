@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".presentation.screen.MainActivity"
+    android:background="@color/orange60"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/suitmedia_logo"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:background="@drawable/logo_circle"
+        android:src="@drawable/suitmedia"
+        android:contentDescription="@string/app_name" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ed_layout_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="24dp"
+        style="@style/TextInputLayoutStyle">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_name"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:textColor="@color/white"
+            android:textCursorDrawable="@null"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/ed_layout_palindrome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/palindrome"
+        android:layout_marginHorizontal="32dp"
+        android:layout_marginTop="8dp"
+        style="@style/TextInputLayoutStyle">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ed_palindrome"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:textColor="@color/white"
+            android:textCursorDrawable="@null" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_check"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="24dp"
+        android:layout_marginHorizontal="32dp"
+        android:text="@string/check"
+        android:textColor="@color/orange60"
+        android:textSize="18sp"
+        android:textAllCaps="true" />
+
+    <Button
+        android:id="@+id/btn_next"
+        style="@style/Widget.Material3.Button.ElevatedButton"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="8dp"
+        android:layout_marginHorizontal="32dp"
+        android:text="@string/next"
+        android:textColor="@color/orange60"
+        android:textSize="18sp"
+        android:textAllCaps="true"/>
+
+</LinearLayout>
